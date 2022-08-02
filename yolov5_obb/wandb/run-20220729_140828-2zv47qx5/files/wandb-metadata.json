@@ -1,0 +1,33 @@
+{
+    "os": "Linux-5.15.0-41-generic-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-07-29T06:08:29.832406",
+    "startedAt": "2022-07-29T06:08:28.538947",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 4,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--batch-size",
+        "32",
+        "--epochs",
+        "300",
+        "--data",
+        "oriented_object/data.yaml",
+        "--weights",
+        "yolov5s.pt"
+    ],
+    "state": "running",
+    "program": "/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/hukaixuan19970627/yolov5_obb.git",
+        "commit": "6f9ea7d78851d2638cc0d53112cf0b825778e1b3"
+    },
+    "email": "hminshen@gmail.com",
+    "root": "/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb",
+    "host": "westonrobot-All-Series",
+    "username": "westonrobot",
+    "executable": "/home/westonrobot/anaconda3/envs/Py39_Torch1.10_cu11.3/bin/python"
+}

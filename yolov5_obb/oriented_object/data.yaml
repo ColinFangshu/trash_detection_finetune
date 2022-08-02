@@ -1,0 +1,6 @@
+train: oriented_object/train/images
+val: oriented_object/valid/images
+test: oriented_object/test/images
+
+nc: 6
+names: ['bottle', 'cups', 'drink-cans', 'drink-packets', 'styrofoam', 'wrappers']

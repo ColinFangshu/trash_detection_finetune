@@ -1,0 +1,894 @@
+2022-07-29 13:45:47,644 INFO    MainThread:28584 [internal.py:wandb_internal():90] W&B internal server running at pid: 28584, started at: 2022-07-29 13:45:47.644595
+2022-07-29 13:45:47,647 INFO    WriterThread:28584 [datastore.py:open_for_write():75] open: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/run-z95wwibn.wandb
+2022-07-29 13:45:47,649 DEBUG   SenderThread:28584 [sender.py:send():236] send: header
+2022-07-29 13:45:47,649 DEBUG   SenderThread:28584 [sender.py:send():236] send: run
+2022-07-29 13:45:47,659 INFO    SenderThread:28584 [sender.py:_maybe_setup_resume():493] checking resume status for None/YOLOv5/z95wwibn
+2022-07-29 13:45:48,308 INFO    SenderThread:28584 [dir_watcher.py:__init__():216] watching files in: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files
+2022-07-29 13:45:48,309 INFO    SenderThread:28584 [sender.py:_start_run_threads():815] run started: z95wwibn with start time 1659073547
+2022-07-29 13:45:48,312 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:45:48,312 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:45:48,313 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: check_version
+2022-07-29 13:45:48,313 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: check_version
+2022-07-29 13:45:48,370 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: run_start
+2022-07-29 13:45:48,382 DEBUG   HandlerThread:28584 [meta.py:__init__():35] meta init
+2022-07-29 13:45:48,383 DEBUG   HandlerThread:28584 [meta.py:__init__():49] meta init done
+2022-07-29 13:45:48,383 DEBUG   HandlerThread:28584 [meta.py:probe():209] probe
+2022-07-29 13:45:48,390 DEBUG   HandlerThread:28584 [meta.py:_setup_git():199] setup git
+2022-07-29 13:45:48,408 DEBUG   HandlerThread:28584 [meta.py:_setup_git():206] setup git done
+2022-07-29 13:45:48,409 DEBUG   HandlerThread:28584 [meta.py:_save_pip():53] save pip
+2022-07-29 13:45:48,409 DEBUG   HandlerThread:28584 [meta.py:_save_pip():67] save pip done
+2022-07-29 13:45:48,409 DEBUG   HandlerThread:28584 [meta.py:_save_conda():74] save conda
+2022-07-29 13:45:49,314 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/conda-environment.yaml
+2022-07-29 13:45:49,314 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:45:49,314 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/requirements.txt
+2022-07-29 13:45:50,303 DEBUG   HandlerThread:28584 [meta.py:_save_conda():84] save conda done
+2022-07-29 13:45:50,303 DEBUG   HandlerThread:28584 [meta.py:probe():247] probe done
+2022-07-29 13:45:50,311 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/conda-environment.yaml
+2022-07-29 13:45:50,316 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-metadata.json
+2022-07-29 13:45:50,343 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:45:50,344 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-29 13:45:50,352 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:45:50,352 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:45:50,674 DEBUG   SenderThread:28584 [sender.py:send():236] send: telemetry
+2022-07-29 13:45:50,674 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:45:51,119 INFO    Thread-11 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2pvjymmq-wandb-metadata.json
+2022-07-29 13:45:51,312 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:45:55,314 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:45:57,314 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:45:59,315 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:01,316 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:03,317 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:05,318 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:05,676 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:46:05,676 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:46:07,319 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:09,320 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:11,321 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:13,322 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:15,323 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:17,288 DEBUG   SenderThread:28584 [sender.py:send():236] send: stats
+2022-07-29 13:46:17,323 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:19,324 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml
+2022-07-29 13:46:19,325 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:20,962 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:46:20,962 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:46:21,325 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:23,326 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:25,327 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:27,327 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:29,328 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:30,996 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:30,997 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Labels_0_17d3e9cbf6f760f5fb9b.jpg with policy now
+2022-07-29 13:46:30,997 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:30,998 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Labels_0_e6d16917fd4b02fd29f2.jpg with policy now
+2022-07-29 13:46:31,026 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,027 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_ff965e47197297828c5b.jpg with policy now
+2022-07-29 13:46:31,033 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,033 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_c97a726362c303695378.jpg with policy now
+2022-07-29 13:46:31,034 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,034 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_b8b50119e04448c42f7d.jpg with policy now
+2022-07-29 13:46:31,035 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,035 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_cb9f2f24de1b5c195157.jpg with policy now
+2022-07-29 13:46:31,039 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,039 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_5f410794f2cac5f1c95c.jpg with policy now
+2022-07-29 13:46:31,040 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,040 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_919d186dad548cc0a699.jpg with policy now
+2022-07-29 13:46:31,045 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,045 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_441fe7ac31c5815b7125.jpg with policy now
+2022-07-29 13:46:31,045 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,045 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Mosaics_0_d431b20f59e875506ee3.jpg with policy now
+2022-07-29 13:46:31,119 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,120 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_52bc76418c9a3a5c51e7.png with policy now
+2022-07-29 13:46:31,219 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,220 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_73ca253e704b8077d05d.boxes2D.json with policy now
+2022-07-29 13:46:31,226 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,230 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,231 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_2578e4e2c540797ee2eb.png with policy now
+2022-07-29 13:46:31,232 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,233 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_8c18d793b1a3af049df5.boxes2D.json with policy now
+2022-07-29 13:46:31,234 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,234 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,234 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_2351eefc9853b401019e.png with policy now
+2022-07-29 13:46:31,235 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,236 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_ef8c4ab03ddd8ac5cb27.boxes2D.json with policy now
+2022-07-29 13:46:31,237 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,243 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,243 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_49675bde9ae5d3673e4e.png with policy now
+2022-07-29 13:46:31,243 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,244 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_d44e20ac011e09aa9f34.boxes2D.json with policy now
+2022-07-29 13:46:31,244 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,245 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,245 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_aa871162601d20fe4a87.png with policy now
+2022-07-29 13:46:31,250 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,251 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_6e2ccddd39df211e8396.boxes2D.json with policy now
+2022-07-29 13:46:31,252 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,252 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,252 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_fad4eda58a31c76d6036.png with policy now
+2022-07-29 13:46:31,252 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,252 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_e96373b240d221edf57e.boxes2D.json with policy now
+2022-07-29 13:46:31,253 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,253 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,254 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_082b92ecd8260351c6a1.png with policy now
+2022-07-29 13:46:31,255 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,255 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_197d9e469abc45785735.boxes2D.json with policy now
+2022-07-29 13:46:31,259 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,260 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,260 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_0dc28627d4e1643c2060.png with policy now
+2022-07-29 13:46:31,260 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,260 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_8eaab99bc5816bfc7e66.boxes2D.json with policy now
+2022-07-29 13:46:31,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,261 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_6768a68e8c2d6b2a104a.png with policy now
+2022-07-29 13:46:31,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,261 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_02c7ae43a007702f722f.boxes2D.json with policy now
+2022-07-29 13:46:31,263 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,263 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,263 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_0df21a7a62019313e236.png with policy now
+2022-07-29 13:46:31,263 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,263 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_4b5a9df32386578f72ac.boxes2D.json with policy now
+2022-07-29 13:46:31,264 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,264 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,264 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_313f268baf5ca5469e01.png with policy now
+2022-07-29 13:46:31,264 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,264 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_2172af0d2241490e8e5d.boxes2D.json with policy now
+2022-07-29 13:46:31,269 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,270 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,270 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_f4dfcff2e8b7d7c2343f.png with policy now
+2022-07-29 13:46:31,271 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,271 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_9a20f6c2edc2ba8e91ea.boxes2D.json with policy now
+2022-07-29 13:46:31,272 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,272 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,277 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_02bbb99c1d4366f0aa6e.png with policy now
+2022-07-29 13:46:31,277 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,277 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_55e59f2a1f5dfd0aca2d.boxes2D.json with policy now
+2022-07-29 13:46:31,278 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,278 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,279 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_3442df1e7828c2d76540.png with policy now
+2022-07-29 13:46:31,279 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,279 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_9423280b2c929ecda562.boxes2D.json with policy now
+2022-07-29 13:46:31,284 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,284 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,284 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_2260da30395a502ca073.png with policy now
+2022-07-29 13:46:31,285 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,285 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_f7a4bba71f21c7f0f227.boxes2D.json with policy now
+2022-07-29 13:46:31,285 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,285 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,286 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_0_f01d91decb78b946af60.png with policy now
+2022-07-29 13:46:31,290 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:46:31,290 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_0_5289fddbc3e9022fdcd8.boxes2D.json with policy now
+2022-07-29 13:46:31,292 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_441fe7ac31c5815b7125.jpg
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_2172af0d2241490e8e5d.boxes2D.json
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_ef8c4ab03ddd8ac5cb27.boxes2D.json
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_0df21a7a62019313e236.png
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2578e4e2c540797ee2eb.png
+2022-07-29 13:46:31,336 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_082b92ecd8260351c6a1.png
+2022-07-29 13:46:31,337 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_cb9f2f24de1b5c195157.jpg
+2022-07-29 13:46:31,337 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_aa871162601d20fe4a87.png
+2022-07-29 13:46:31,337 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2260da30395a502ca073.png
+2022-07-29 13:46:31,340 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:46:31,340 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_8eaab99bc5816bfc7e66.boxes2D.json
+2022-07-29 13:46:31,340 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_52bc76418c9a3a5c51e7.png
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_3442df1e7828c2d76540.png
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_919d186dad548cc0a699.jpg
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_197d9e469abc45785735.boxes2D.json
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_0dc28627d4e1643c2060.png
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d44e20ac011e09aa9f34.boxes2D.json
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_6e2ccddd39df211e8396.boxes2D.json
+2022-07-29 13:46:31,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Labels_0_e6d16917fd4b02fd29f2.jpg
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_4b5a9df32386578f72ac.boxes2D.json
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_f7a4bba71f21c7f0f227.boxes2D.json
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_5289fddbc3e9022fdcd8.boxes2D.json
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_e96373b240d221edf57e.boxes2D.json
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_d431b20f59e875506ee3.jpg
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Labels_0_17d3e9cbf6f760f5fb9b.jpg
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_5f410794f2cac5f1c95c.jpg
+2022-07-29 13:46:31,342 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_fad4eda58a31c76d6036.png
+2022-07-29 13:46:31,348 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_c97a726362c303695378.jpg
+2022-07-29 13:46:31,348 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2351eefc9853b401019e.png
+2022-07-29 13:46:31,348 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_9423280b2c929ecda562.boxes2D.json
+2022-07-29 13:46:31,349 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_313f268baf5ca5469e01.png
+2022-07-29 13:46:31,349 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_9a20f6c2edc2ba8e91ea.boxes2D.json
+2022-07-29 13:46:31,350 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_6768a68e8c2d6b2a104a.png
+2022-07-29 13:46:31,350 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_55e59f2a1f5dfd0aca2d.boxes2D.json
+2022-07-29 13:46:31,350 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_ff965e47197297828c5b.jpg
+2022-07-29 13:46:31,350 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_49675bde9ae5d3673e4e.png
+2022-07-29 13:46:31,350 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_f01d91decb78b946af60.png
+2022-07-29 13:46:31,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:46:31,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_02c7ae43a007702f722f.boxes2D.json
+2022-07-29 13:46:31,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_b8b50119e04448c42f7d.jpg
+2022-07-29 13:46:31,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_73ca253e704b8077d05d.boxes2D.json
+2022-07-29 13:46:31,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_8c18d793b1a3af049df5.boxes2D.json
+2022-07-29 13:46:31,352 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images
+2022-07-29 13:46:31,352 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media
+2022-07-29 13:46:31,357 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata
+2022-07-29 13:46:31,357 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D
+2022-07-29 13:46:31,476 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-29 13:46:31,481 DEBUG   SenderThread:28584 [sender.py:send():236] send: history
+2022-07-29 13:46:31,481 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:46:31,487 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:46:32,338 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:46:32,359 INFO    Thread-31 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/189xctaf-media/metadata/boxes2D/BoundingBoxDebugger_0_6e2ccddd39df211e8396.boxes2D.json
+2022-07-29 13:46:32,359 INFO    Thread-27 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2yfkj5kj-media/metadata/boxes2D/BoundingBoxDebugger_0_ef8c4ab03ddd8ac5cb27.boxes2D.json
+2022-07-29 13:46:32,368 INFO    Thread-23 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3mbv13yg-media/metadata/boxes2D/BoundingBoxDebugger_0_73ca253e704b8077d05d.boxes2D.json
+2022-07-29 13:46:32,404 INFO    Thread-37 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/38e30c8z-media/metadata/boxes2D/BoundingBoxDebugger_0_8eaab99bc5816bfc7e66.boxes2D.json
+2022-07-29 13:46:32,467 INFO    Thread-35 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/33v4bw2p-media/metadata/boxes2D/BoundingBoxDebugger_0_197d9e469abc45785735.boxes2D.json
+2022-07-29 13:46:32,488 INFO    Thread-43 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/kugnzmox-media/metadata/boxes2D/BoundingBoxDebugger_0_2172af0d2241490e8e5d.boxes2D.json
+2022-07-29 13:46:32,490 INFO    Thread-45 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/lujeubjp-media/metadata/boxes2D/BoundingBoxDebugger_0_9a20f6c2edc2ba8e91ea.boxes2D.json
+2022-07-29 13:46:32,521 INFO    Thread-41 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2xyxy6cw-media/metadata/boxes2D/BoundingBoxDebugger_0_4b5a9df32386578f72ac.boxes2D.json
+2022-07-29 13:46:32,597 INFO    Thread-12 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1soxjlgj-media/images/Labels_0_17d3e9cbf6f760f5fb9b.jpg
+2022-07-29 13:46:32,621 INFO    Thread-53 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2so76h1x-media/metadata/boxes2D/BoundingBoxDebugger_0_5289fddbc3e9022fdcd8.boxes2D.json
+2022-07-29 13:46:32,647 INFO    Thread-47 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3psr95lv-media/metadata/boxes2D/BoundingBoxDebugger_0_55e59f2a1f5dfd0aca2d.boxes2D.json
+2022-07-29 13:46:32,735 INFO    Thread-49 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/11klg2x2-media/metadata/boxes2D/BoundingBoxDebugger_0_9423280b2c929ecda562.boxes2D.json
+2022-07-29 13:46:32,755 INFO    Thread-33 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/h4g3omt2-media/metadata/boxes2D/BoundingBoxDebugger_0_e96373b240d221edf57e.boxes2D.json
+2022-07-29 13:46:32,771 INFO    Thread-25 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/18dcxojs-media/metadata/boxes2D/BoundingBoxDebugger_0_8c18d793b1a3af049df5.boxes2D.json
+2022-07-29 13:46:32,779 INFO    Thread-14 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/15tomngq-media/images/Mosaics_0_ff965e47197297828c5b.jpg
+2022-07-29 13:46:32,868 INFO    Thread-13 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3t26tvy0-media/images/Labels_0_e6d16917fd4b02fd29f2.jpg
+2022-07-29 13:46:32,889 INFO    Thread-32 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1k7fxcqw-media/images/BoundingBoxDebugger_0_fad4eda58a31c76d6036.png
+2022-07-29 13:46:32,905 INFO    Thread-18 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/37f73aqz-media/images/Mosaics_0_5f410794f2cac5f1c95c.jpg
+2022-07-29 13:46:32,907 INFO    Thread-17 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1ypcohx5-media/images/Mosaics_0_cb9f2f24de1b5c195157.jpg
+2022-07-29 13:46:32,936 INFO    Thread-19 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/32kvect8-media/images/Mosaics_0_919d186dad548cc0a699.jpg
+2022-07-29 13:46:32,950 INFO    Thread-20 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3mguvq3c-media/images/Mosaics_0_441fe7ac31c5815b7125.jpg
+2022-07-29 13:46:32,951 INFO    Thread-21 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/th00zi76-media/images/Mosaics_0_d431b20f59e875506ee3.jpg
+2022-07-29 13:46:32,998 INFO    Thread-15 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/cvadvag6-media/images/Mosaics_0_c97a726362c303695378.jpg
+2022-07-29 13:46:33,016 INFO    Thread-29 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2qfga5ok-media/metadata/boxes2D/BoundingBoxDebugger_0_d44e20ac011e09aa9f34.boxes2D.json
+2022-07-29 13:46:33,023 INFO    Thread-16 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/12knpsax-media/images/Mosaics_0_b8b50119e04448c42f7d.jpg
+2022-07-29 13:46:33,135 INFO    Thread-22 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3vg637b5-media/images/BoundingBoxDebugger_0_52bc76418c9a3a5c51e7.png
+2022-07-29 13:46:33,289 INFO    Thread-44 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/4tff4e3k-media/images/BoundingBoxDebugger_0_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:46:33,319 INFO    Thread-52 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/qp9ftyj1-media/images/BoundingBoxDebugger_0_f01d91decb78b946af60.png
+2022-07-29 13:46:33,323 INFO    Thread-28 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/32pau7lc-media/images/BoundingBoxDebugger_0_49675bde9ae5d3673e4e.png
+2022-07-29 13:46:33,339 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:33,351 INFO    Thread-48 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1ip3b9xt-media/images/BoundingBoxDebugger_0_3442df1e7828c2d76540.png
+2022-07-29 13:46:33,356 INFO    Thread-26 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/17kr35yz-media/images/BoundingBoxDebugger_0_2351eefc9853b401019e.png
+2022-07-29 13:46:33,383 INFO    Thread-42 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/n4se6avq-media/images/BoundingBoxDebugger_0_313f268baf5ca5469e01.png
+2022-07-29 13:46:33,393 INFO    Thread-50 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3up8ffow-media/images/BoundingBoxDebugger_0_2260da30395a502ca073.png
+2022-07-29 13:46:33,394 INFO    Thread-46 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2c4qyil5-media/images/BoundingBoxDebugger_0_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:46:33,407 INFO    Thread-40 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/yt2cuqnx-media/images/BoundingBoxDebugger_0_0df21a7a62019313e236.png
+2022-07-29 13:46:33,411 INFO    Thread-30 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2wgqfvxs-media/images/BoundingBoxDebugger_0_aa871162601d20fe4a87.png
+2022-07-29 13:46:33,412 INFO    Thread-36 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/17a8jezu-media/images/BoundingBoxDebugger_0_0dc28627d4e1643c2060.png
+2022-07-29 13:46:33,451 INFO    Thread-38 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/34xi5j5i-media/images/BoundingBoxDebugger_0_6768a68e8c2d6b2a104a.png
+2022-07-29 13:46:33,488 INFO    Thread-34 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3camoqq1-media/images/BoundingBoxDebugger_0_082b92ecd8260351c6a1.png
+2022-07-29 13:46:33,526 INFO    Thread-39 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2eyyil8w-media/metadata/boxes2D/BoundingBoxDebugger_0_02c7ae43a007702f722f.boxes2D.json
+2022-07-29 13:46:33,541 INFO    Thread-24 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3rznex5k-media/images/BoundingBoxDebugger_0_2578e4e2c540797ee2eb.png
+2022-07-29 13:46:33,554 INFO    Thread-51 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/844qbdy7-media/metadata/boxes2D/BoundingBoxDebugger_0_f7a4bba71f21c7f0f227.boxes2D.json
+2022-07-29 13:46:35,341 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:36,248 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:46:36,248 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:46:37,343 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:39,346 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:41,348 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:43,351 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:45,354 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:47,357 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:48,259 DEBUG   SenderThread:28584 [sender.py:send():236] send: stats
+2022-07-29 13:46:49,360 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:50,361 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml
+2022-07-29 13:46:51,362 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:51,539 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:46:51,540 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:46:53,364 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:55,366 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:57,368 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:46:59,370 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:01,209 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,209 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_52bc76418c9a3a5c51e7.png with policy now
+2022-07-29 13:47:01,217 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,218 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_ec174c04951fb14b58da.boxes2D.json with policy now
+2022-07-29 13:47:01,219 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,219 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,219 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_2578e4e2c540797ee2eb.png with policy now
+2022-07-29 13:47:01,220 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,220 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_8c172085eeae943d5554.boxes2D.json with policy now
+2022-07-29 13:47:01,221 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,221 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,222 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_2351eefc9853b401019e.png with policy now
+2022-07-29 13:47:01,227 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,227 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_85e8eee4ab81e22c0d47.boxes2D.json with policy now
+2022-07-29 13:47:01,228 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,228 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,228 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_49675bde9ae5d3673e4e.png with policy now
+2022-07-29 13:47:01,228 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,229 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_8e2ce17fbf4e16fbbf65.boxes2D.json with policy now
+2022-07-29 13:47:01,229 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,230 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,230 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_aa871162601d20fe4a87.png with policy now
+2022-07-29 13:47:01,231 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,231 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_1ee9c31096fe815665a9.boxes2D.json with policy now
+2022-07-29 13:47:01,237 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,237 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,237 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_fad4eda58a31c76d6036.png with policy now
+2022-07-29 13:47:01,238 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,238 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_85c44aede0cf9f239fb3.boxes2D.json with policy now
+2022-07-29 13:47:01,238 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,239 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,239 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_082b92ecd8260351c6a1.png with policy now
+2022-07-29 13:47:01,245 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,246 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_28bd847bcffd94707bf0.boxes2D.json with policy now
+2022-07-29 13:47:01,248 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,249 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,249 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_0dc28627d4e1643c2060.png with policy now
+2022-07-29 13:47:01,249 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,249 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_4faf76736339d82bd63b.boxes2D.json with policy now
+2022-07-29 13:47:01,256 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,257 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,257 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_6768a68e8c2d6b2a104a.png with policy now
+2022-07-29 13:47:01,258 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,261 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_7be3e1ad02f4019a300b.boxes2D.json with policy now
+2022-07-29 13:47:01,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,261 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_0df21a7a62019313e236.png with policy now
+2022-07-29 13:47:01,261 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,262 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_80ddca896534b2f8f34e.boxes2D.json with policy now
+2022-07-29 13:47:01,262 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,262 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,262 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_4787a72e59db366d8ef1.png with policy now
+2022-07-29 13:47:01,262 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,262 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_ab967a2d91e9447669b1.boxes2D.json with policy now
+2022-07-29 13:47:01,262 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,263 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,263 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_313f268baf5ca5469e01.png with policy now
+2022-07-29 13:47:01,265 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,266 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_2426fa413603adc422df.boxes2D.json with policy now
+2022-07-29 13:47:01,266 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,266 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,266 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_59692549afa51f284ffb.png with policy now
+2022-07-29 13:47:01,266 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,266 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_4cce181a0e1fddb69446.boxes2D.json with policy now
+2022-07-29 13:47:01,267 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,267 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,267 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_f4dfcff2e8b7d7c2343f.png with policy now
+2022-07-29 13:47:01,267 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,268 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_9fb29fd065f50ba80d1c.boxes2D.json with policy now
+2022-07-29 13:47:01,268 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,272 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,272 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_02bbb99c1d4366f0aa6e.png with policy now
+2022-07-29 13:47:01,272 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,273 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_02df2e2013183232f8d2.boxes2D.json with policy now
+2022-07-29 13:47:01,273 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,273 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,274 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_1_3442df1e7828c2d76540.png with policy now
+2022-07-29 13:47:01,274 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:01,274 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_1_04f3138b7ba2e243e58c.boxes2D.json with policy now
+2022-07-29 13:47:01,274 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:01,385 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:01,385 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_ec174c04951fb14b58da.boxes2D.json
+2022-07-29 13:47:01,385 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_85c44aede0cf9f239fb3.boxes2D.json
+2022-07-29 13:47:01,385 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_85e8eee4ab81e22c0d47.boxes2D.json
+2022-07-29 13:47:01,389 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_7be3e1ad02f4019a300b.boxes2D.json
+2022-07-29 13:47:01,390 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_313f268baf5ca5469e01.png
+2022-07-29 13:47:01,390 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_8e2ce17fbf4e16fbbf65.boxes2D.json
+2022-07-29 13:47:01,391 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_1ee9c31096fe815665a9.boxes2D.json
+2022-07-29 13:47:01,391 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_28bd847bcffd94707bf0.boxes2D.json
+2022-07-29 13:47:01,391 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_59692549afa51f284ffb.png
+2022-07-29 13:47:01,391 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:01,392 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_0df21a7a62019313e236.png
+2022-07-29 13:47:01,392 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_082b92ecd8260351c6a1.png
+2022-07-29 13:47:01,392 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_4787a72e59db366d8ef1.png
+2022-07-29 13:47:01,392 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_8c172085eeae943d5554.boxes2D.json
+2022-07-29 13:47:01,393 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_2426fa413603adc422df.boxes2D.json
+2022-07-29 13:47:01,397 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:01,397 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_aa871162601d20fe4a87.png
+2022-07-29 13:47:01,398 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_3442df1e7828c2d76540.png
+2022-07-29 13:47:01,398 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:01,398 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:01,398 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_ab967a2d91e9447669b1.boxes2D.json
+2022-07-29 13:47:01,398 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_2351eefc9853b401019e.png
+2022-07-29 13:47:01,399 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_4faf76736339d82bd63b.boxes2D.json
+2022-07-29 13:47:01,399 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_fad4eda58a31c76d6036.png
+2022-07-29 13:47:01,399 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_04f3138b7ba2e243e58c.boxes2D.json
+2022-07-29 13:47:01,399 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_0dc28627d4e1643c2060.png
+2022-07-29 13:47:01,399 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_9fb29fd065f50ba80d1c.boxes2D.json
+2022-07-29 13:47:01,400 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_80ddca896534b2f8f34e.boxes2D.json
+2022-07-29 13:47:01,403 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:01,404 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_4cce181a0e1fddb69446.boxes2D.json
+2022-07-29 13:47:01,404 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_02df2e2013183232f8d2.boxes2D.json
+2022-07-29 13:47:01,404 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:01,404 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images
+2022-07-29 13:47:01,404 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D
+2022-07-29 13:47:01,458 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-29 13:47:01,460 DEBUG   SenderThread:28584 [sender.py:send():236] send: history
+2022-07-29 13:47:01,460 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:47:01,461 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:47:02,386 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:47:02,396 INFO    Thread-55 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3uq4yd9e-media/metadata/boxes2D/BoundingBoxDebugger_1_ec174c04951fb14b58da.boxes2D.json
+2022-07-29 13:47:02,437 INFO    Thread-59 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1k6fmliz-media/metadata/boxes2D/BoundingBoxDebugger_1_85e8eee4ab81e22c0d47.boxes2D.json
+2022-07-29 13:47:02,502 INFO    Thread-65 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/35mrfe0m-media/metadata/boxes2D/BoundingBoxDebugger_1_85c44aede0cf9f239fb3.boxes2D.json
+2022-07-29 13:47:02,517 INFO    Thread-61 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/321y1g4a-media/metadata/boxes2D/BoundingBoxDebugger_1_8e2ce17fbf4e16fbbf65.boxes2D.json
+2022-07-29 13:47:02,625 INFO    Thread-57 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/38ceuoji-media/metadata/boxes2D/BoundingBoxDebugger_1_8c172085eeae943d5554.boxes2D.json
+2022-07-29 13:47:02,638 INFO    Thread-71 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1s682y20-media/metadata/boxes2D/BoundingBoxDebugger_1_7be3e1ad02f4019a300b.boxes2D.json
+2022-07-29 13:47:02,747 INFO    Thread-63 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3nqk8ryv-media/metadata/boxes2D/BoundingBoxDebugger_1_1ee9c31096fe815665a9.boxes2D.json
+2022-07-29 13:47:02,752 INFO    Thread-73 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/ghrrz8tu-media/metadata/boxes2D/BoundingBoxDebugger_1_80ddca896534b2f8f34e.boxes2D.json
+2022-07-29 13:47:02,762 INFO    Thread-79 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/34zjvnox-media/metadata/boxes2D/BoundingBoxDebugger_1_4cce181a0e1fddb69446.boxes2D.json
+2022-07-29 13:47:02,766 INFO    Thread-81 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/32470euk-media/metadata/boxes2D/BoundingBoxDebugger_1_9fb29fd065f50ba80d1c.boxes2D.json
+2022-07-29 13:47:02,784 INFO    Thread-85 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/325u8mav-media/metadata/boxes2D/BoundingBoxDebugger_1_04f3138b7ba2e243e58c.boxes2D.json
+2022-07-29 13:47:02,807 INFO    Thread-69 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/y9h5hm5e-media/metadata/boxes2D/BoundingBoxDebugger_1_4faf76736339d82bd63b.boxes2D.json
+2022-07-29 13:47:02,820 INFO    Thread-77 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2aosp2di-media/metadata/boxes2D/BoundingBoxDebugger_1_2426fa413603adc422df.boxes2D.json
+2022-07-29 13:47:02,892 INFO    Thread-67 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3dne7t6y-media/metadata/boxes2D/BoundingBoxDebugger_1_28bd847bcffd94707bf0.boxes2D.json
+2022-07-29 13:47:02,978 INFO    Thread-83 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/mzg1cjhs-media/metadata/boxes2D/BoundingBoxDebugger_1_02df2e2013183232f8d2.boxes2D.json
+2022-07-29 13:47:03,102 INFO    Thread-75 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/17wwt6b5-media/metadata/boxes2D/BoundingBoxDebugger_1_ab967a2d91e9447669b1.boxes2D.json
+2022-07-29 13:47:03,384 INFO    Thread-72 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/395nmtl0-media/images/BoundingBoxDebugger_1_0df21a7a62019313e236.png
+2022-07-29 13:47:03,388 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:03,449 INFO    Thread-82 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/gwtj82s3-media/images/BoundingBoxDebugger_1_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:03,451 INFO    Thread-84 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/p4q13u4f-media/images/BoundingBoxDebugger_1_3442df1e7828c2d76540.png
+2022-07-29 13:47:03,455 INFO    Thread-56 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/334d6noc-media/images/BoundingBoxDebugger_1_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:03,463 INFO    Thread-68 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3esee636-media/images/BoundingBoxDebugger_1_0dc28627d4e1643c2060.png
+2022-07-29 13:47:03,516 INFO    Thread-70 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1t0jygr5-media/images/BoundingBoxDebugger_1_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:03,520 INFO    Thread-76 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/317jpw0b-media/images/BoundingBoxDebugger_1_313f268baf5ca5469e01.png
+2022-07-29 13:47:03,524 INFO    Thread-60 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2bbusyrp-media/images/BoundingBoxDebugger_1_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:03,530 INFO    Thread-64 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/jiw5t9m4-media/images/BoundingBoxDebugger_1_fad4eda58a31c76d6036.png
+2022-07-29 13:47:03,537 INFO    Thread-62 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3jy12ksg-media/images/BoundingBoxDebugger_1_aa871162601d20fe4a87.png
+2022-07-29 13:47:03,554 INFO    Thread-80 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3gh03nv8-media/images/BoundingBoxDebugger_1_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:03,575 INFO    Thread-54 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1hbka2a2-media/images/BoundingBoxDebugger_1_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:03,578 INFO    Thread-78 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2xiv2xkn-media/images/BoundingBoxDebugger_1_59692549afa51f284ffb.png
+2022-07-29 13:47:03,580 INFO    Thread-58 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3hpui7qo-media/images/BoundingBoxDebugger_1_2351eefc9853b401019e.png
+2022-07-29 13:47:03,607 INFO    Thread-66 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1jcsl8xr-media/images/BoundingBoxDebugger_1_082b92ecd8260351c6a1.png
+2022-07-29 13:47:03,668 INFO    Thread-74 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/315h565r-media/images/BoundingBoxDebugger_1_4787a72e59db366d8ef1.png
+2022-07-29 13:47:05,391 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:06,837 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:47:06,838 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:47:07,393 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:09,397 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:11,401 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:13,405 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:15,408 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:17,412 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:19,258 DEBUG   SenderThread:28584 [sender.py:send():236] send: stats
+2022-07-29 13:47:19,415 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:21,418 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml
+2022-07-29 13:47:21,418 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:22,112 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:47:22,112 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:47:23,422 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:25,427 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:27,430 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:29,434 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:31,438 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:32,384 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,384 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_52bc76418c9a3a5c51e7.png with policy now
+2022-07-29 13:47:32,386 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,387 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_1e704e278f26ce835d2e.boxes2D.json with policy now
+2022-07-29 13:47:32,393 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,393 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,394 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_2578e4e2c540797ee2eb.png with policy now
+2022-07-29 13:47:32,394 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,394 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_344090d8173558bb0a52.boxes2D.json with policy now
+2022-07-29 13:47:32,396 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,396 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,396 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_2351eefc9853b401019e.png with policy now
+2022-07-29 13:47:32,401 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,401 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_13acecdbbb2752f8bdf7.boxes2D.json with policy now
+2022-07-29 13:47:32,401 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,402 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,402 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_49675bde9ae5d3673e4e.png with policy now
+2022-07-29 13:47:32,402 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,402 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_22620ca79cc7d9739bfd.boxes2D.json with policy now
+2022-07-29 13:47:32,402 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,402 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,402 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_aa871162601d20fe4a87.png with policy now
+2022-07-29 13:47:32,403 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,403 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_8ff2c9b48f4f88184c63.boxes2D.json with policy now
+2022-07-29 13:47:32,404 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,404 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,404 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_fad4eda58a31c76d6036.png with policy now
+2022-07-29 13:47:32,409 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,409 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_c4561abad09a11d5c45e.boxes2D.json with policy now
+2022-07-29 13:47:32,410 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,411 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,411 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_082b92ecd8260351c6a1.png with policy now
+2022-07-29 13:47:32,412 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,412 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_b47fb4425752d433c0a0.boxes2D.json with policy now
+2022-07-29 13:47:32,416 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,416 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,416 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_0dc28627d4e1643c2060.png with policy now
+2022-07-29 13:47:32,417 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,417 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_80863a8e4be868b12d8a.boxes2D.json with policy now
+2022-07-29 13:47:32,417 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,418 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,418 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_6768a68e8c2d6b2a104a.png with policy now
+2022-07-29 13:47:32,418 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,419 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_da687103b1cada3d0d75.boxes2D.json with policy now
+2022-07-29 13:47:32,419 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,419 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,419 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_0df21a7a62019313e236.png with policy now
+2022-07-29 13:47:32,419 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,420 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_734d875dd17bbeba34ad.boxes2D.json with policy now
+2022-07-29 13:47:32,420 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,420 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,420 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_4787a72e59db366d8ef1.png with policy now
+2022-07-29 13:47:32,421 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,421 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_92b193b11a15e61018c3.boxes2D.json with policy now
+2022-07-29 13:47:32,421 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,422 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,422 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_313f268baf5ca5469e01.png with policy now
+2022-07-29 13:47:32,426 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,426 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_545bb25700cab529e856.boxes2D.json with policy now
+2022-07-29 13:47:32,426 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,427 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,427 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_59692549afa51f284ffb.png with policy now
+2022-07-29 13:47:32,431 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,431 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_4078509c4dc92e446998.boxes2D.json with policy now
+2022-07-29 13:47:32,432 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,432 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,432 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_f4dfcff2e8b7d7c2343f.png with policy now
+2022-07-29 13:47:32,433 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,433 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_63687807c4de6ee5c074.boxes2D.json with policy now
+2022-07-29 13:47:32,437 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,437 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,438 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_02bbb99c1d4366f0aa6e.png with policy now
+2022-07-29 13:47:32,439 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,439 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_53ccca94cddd0487d997.boxes2D.json with policy now
+2022-07-29 13:47:32,439 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,439 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,440 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/BoundingBoxDebugger_2_3442df1e7828c2d76540.png with policy now
+2022-07-29 13:47:32,444 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:32,444 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/metadata/boxes2D/BoundingBoxDebugger_2_0ed6f2d8feda304ce180.boxes2D.json with policy now
+2022-07-29 13:47:32,444 DEBUG   SenderThread:28584 [sender.py:send():236] send: config
+2022-07-29 13:47:32,451 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_59692549afa51f284ffb.png
+2022-07-29 13:47:32,451 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_734d875dd17bbeba34ad.boxes2D.json
+2022-07-29 13:47:32,455 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_c4561abad09a11d5c45e.boxes2D.json
+2022-07-29 13:47:32,456 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_aa871162601d20fe4a87.png
+2022-07-29 13:47:32,456 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_545bb25700cab529e856.boxes2D.json
+2022-07-29 13:47:32,457 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_313f268baf5ca5469e01.png
+2022-07-29 13:47:32,457 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_1e704e278f26ce835d2e.boxes2D.json
+2022-07-29 13:47:32,457 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_0ed6f2d8feda304ce180.boxes2D.json
+2022-07-29 13:47:32,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_4787a72e59db366d8ef1.png
+2022-07-29 13:47:32,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:32,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:32,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_2351eefc9853b401019e.png
+2022-07-29 13:47:32,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_13acecdbbb2752f8bdf7.boxes2D.json
+2022-07-29 13:47:32,459 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_da687103b1cada3d0d75.boxes2D.json
+2022-07-29 13:47:32,459 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_4078509c4dc92e446998.boxes2D.json
+2022-07-29 13:47:32,459 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_92b193b11a15e61018c3.boxes2D.json
+2022-07-29 13:47:32,459 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:32,460 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_8ff2c9b48f4f88184c63.boxes2D.json
+2022-07-29 13:47:32,460 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:32,462 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_082b92ecd8260351c6a1.png
+2022-07-29 13:47:32,463 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_63687807c4de6ee5c074.boxes2D.json
+2022-07-29 13:47:32,463 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_0dc28627d4e1643c2060.png
+2022-07-29 13:47:32,463 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_0df21a7a62019313e236.png
+2022-07-29 13:47:32,463 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_344090d8173558bb0a52.boxes2D.json
+2022-07-29 13:47:32,464 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_22620ca79cc7d9739bfd.boxes2D.json
+2022-07-29 13:47:32,464 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_80863a8e4be868b12d8a.boxes2D.json
+2022-07-29 13:47:32,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_fad4eda58a31c76d6036.png
+2022-07-29 13:47:32,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:32,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_3442df1e7828c2d76540.png
+2022-07-29 13:47:32,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_b47fb4425752d433c0a0.boxes2D.json
+2022-07-29 13:47:32,468 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:32,468 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_53ccca94cddd0487d997.boxes2D.json
+2022-07-29 13:47:32,469 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images
+2022-07-29 13:47:32,469 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D
+2022-07-29 13:47:32,650 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-29 13:47:32,653 DEBUG   SenderThread:28584 [sender.py:send():236] send: history
+2022-07-29 13:47:32,653 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:47:32,655 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:47:33,442 INFO    Thread-89 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2icmnn65-media/metadata/boxes2D/BoundingBoxDebugger_2_344090d8173558bb0a52.boxes2D.json
+2022-07-29 13:47:33,448 INFO    Thread-91 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/29k9g2zh-media/metadata/boxes2D/BoundingBoxDebugger_2_13acecdbbb2752f8bdf7.boxes2D.json
+2022-07-29 13:47:33,453 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:47:33,453 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:33,480 INFO    Thread-87 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/vrmu9pjm-media/metadata/boxes2D/BoundingBoxDebugger_2_1e704e278f26ce835d2e.boxes2D.json
+2022-07-29 13:47:33,553 INFO    Thread-99 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3jpqfle2-media/metadata/boxes2D/BoundingBoxDebugger_2_b47fb4425752d433c0a0.boxes2D.json
+2022-07-29 13:47:33,554 INFO    Thread-95 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3fpd4cnc-media/metadata/boxes2D/BoundingBoxDebugger_2_8ff2c9b48f4f88184c63.boxes2D.json
+2022-07-29 13:47:33,560 INFO    Thread-97 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/u1xrcmi7-media/metadata/boxes2D/BoundingBoxDebugger_2_c4561abad09a11d5c45e.boxes2D.json
+2022-07-29 13:47:33,655 INFO    Thread-93 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/27jfwbf7-media/metadata/boxes2D/BoundingBoxDebugger_2_22620ca79cc7d9739bfd.boxes2D.json
+2022-07-29 13:47:33,696 INFO    Thread-103:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1nkuzypj-media/metadata/boxes2D/BoundingBoxDebugger_2_da687103b1cada3d0d75.boxes2D.json
+2022-07-29 13:47:33,747 INFO    Thread-105:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2jlqvf8y-media/metadata/boxes2D/BoundingBoxDebugger_2_734d875dd17bbeba34ad.boxes2D.json
+2022-07-29 13:47:33,756 INFO    Thread-101:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/go5bgxkk-media/metadata/boxes2D/BoundingBoxDebugger_2_80863a8e4be868b12d8a.boxes2D.json
+2022-07-29 13:47:33,777 INFO    Thread-107:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/cavv9d6u-media/metadata/boxes2D/BoundingBoxDebugger_2_92b193b11a15e61018c3.boxes2D.json
+2022-07-29 13:47:33,805 INFO    Thread-109:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/ppxud5z1-media/metadata/boxes2D/BoundingBoxDebugger_2_545bb25700cab529e856.boxes2D.json
+2022-07-29 13:47:33,849 INFO    Thread-111:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/22roupwq-media/metadata/boxes2D/BoundingBoxDebugger_2_4078509c4dc92e446998.boxes2D.json
+2022-07-29 13:47:33,928 INFO    Thread-113:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3dfxrzje-media/metadata/boxes2D/BoundingBoxDebugger_2_63687807c4de6ee5c074.boxes2D.json
+2022-07-29 13:47:34,094 INFO    Thread-115:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/16ypgokj-media/metadata/boxes2D/BoundingBoxDebugger_2_53ccca94cddd0487d997.boxes2D.json
+2022-07-29 13:47:34,097 INFO    Thread-117:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2m8f2z9j-media/metadata/boxes2D/BoundingBoxDebugger_2_0ed6f2d8feda304ce180.boxes2D.json
+2022-07-29 13:47:34,211 INFO    Thread-86 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/6viaeu3f-media/images/BoundingBoxDebugger_2_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:34,268 INFO    Thread-98 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/32v75h9l-media/images/BoundingBoxDebugger_2_082b92ecd8260351c6a1.png
+2022-07-29 13:47:34,287 INFO    Thread-94 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3vyomdgl-media/images/BoundingBoxDebugger_2_aa871162601d20fe4a87.png
+2022-07-29 13:47:34,329 INFO    Thread-106:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3ddzx4c2-media/images/BoundingBoxDebugger_2_4787a72e59db366d8ef1.png
+2022-07-29 13:47:34,339 INFO    Thread-96 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/tq5w2inm-media/images/BoundingBoxDebugger_2_fad4eda58a31c76d6036.png
+2022-07-29 13:47:34,342 INFO    Thread-90 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/jmwdaa0x-media/images/BoundingBoxDebugger_2_2351eefc9853b401019e.png
+2022-07-29 13:47:34,386 INFO    Thread-100:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1vjhi9xl-media/images/BoundingBoxDebugger_2_0dc28627d4e1643c2060.png
+2022-07-29 13:47:34,397 INFO    Thread-110:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1cxs3cep-media/images/BoundingBoxDebugger_2_59692549afa51f284ffb.png
+2022-07-29 13:47:34,397 INFO    Thread-92 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1lyr11fh-media/images/BoundingBoxDebugger_2_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:34,446 INFO    Thread-116:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2rtzi8x6-media/images/BoundingBoxDebugger_2_3442df1e7828c2d76540.png
+2022-07-29 13:47:34,459 INFO    Thread-104:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3g5k972u-media/images/BoundingBoxDebugger_2_0df21a7a62019313e236.png
+2022-07-29 13:47:34,462 INFO    Thread-102:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/ic9gyd6b-media/images/BoundingBoxDebugger_2_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:34,484 INFO    Thread-88 :28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1jf1xxzc-media/images/BoundingBoxDebugger_2_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:34,492 INFO    Thread-112:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3c9kmx6d-media/images/BoundingBoxDebugger_2_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:34,505 INFO    Thread-114:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/16eu5cbt-media/images/BoundingBoxDebugger_2_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:34,563 INFO    Thread-108:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1n1h08eo-media/images/BoundingBoxDebugger_2_313f268baf5ca5469e01.png
+2022-07-29 13:47:35,456 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:37,406 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-29 13:47:37,406 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: stop_status
+2022-07-29 13:47:37,458 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:40,654 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: log_artifact
+2022-07-29 13:47:40,654 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: log_artifact
+2022-07-29 13:47:40,884 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: partial_history
+2022-07-29 13:47:41,464 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_4510b8757febefa5b536.jpg
+2022-07-29 13:47:41,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_1b8108353a3cc40d46b5.png
+2022-07-29 13:47:41,465 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_8a8fedf29068da2a296b.png
+2022-07-29 13:47:41,466 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_c27fe4a7b7b1eaa3f363.jpg
+2022-07-29 13:47:41,466 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_ab038c8e6f3efc8f748a.png
+2022-07-29 13:47:41,466 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_67fd8ae5ca5c500754fc.png
+2022-07-29 13:47:41,467 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_39e8acf9c6ada56d1c9d.jpg
+2022-07-29 13:47:41,467 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_ef4757b7a15964b23f8b.png
+2022-07-29 13:47:41,467 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_5f06e54cd0a24abdc4b1.png
+2022-07-29 13:47:41,468 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_created():269] file/dir created: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_2bf252e57d9d4c690d1e.jpg
+2022-07-29 13:47:41,468 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images
+2022-07-29 13:47:43,419 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:43,467 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:43,838 INFO    Thread-119:28584 [upload_job.py:push():96] Uploaded file /home/westonrobot/.cache/wandb/artifacts/obj/md5/cc/0016186c0bfbaddc4bbca6af0bfb45
+2022-07-29 13:47:45,158 INFO    SenderThread:28584 [sender.py:send_request_log_artifact():1009] logged artifact run_z95wwibn_model - {'id': 'QXJ0aWZhY3Q6MTY0NDY4MDI2', 'digest': 'fc51bc59272b962532ff84c40acfe2a9', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjI0OTIxODAx', 'latestArtifact': None}, 'version': 'latest'}
+2022-07-29 13:47:45,159 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,159 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Validation_3_c27fe4a7b7b1eaa3f363.jpg with policy now
+2022-07-29 13:47:45,160 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,160 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Validation_3_39e8acf9c6ada56d1c9d.jpg with policy now
+2022-07-29 13:47:45,161 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,161 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Validation_3_4510b8757febefa5b536.jpg with policy now
+2022-07-29 13:47:45,161 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,162 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Validation_3_2bf252e57d9d4c690d1e.jpg with policy now
+2022-07-29 13:47:45,162 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,162 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_1b8108353a3cc40d46b5.png with policy now
+2022-07-29 13:47:45,163 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,163 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_8a8fedf29068da2a296b.png with policy now
+2022-07-29 13:47:45,163 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,163 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_ef4757b7a15964b23f8b.png with policy now
+2022-07-29 13:47:45,169 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,170 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_5f06e54cd0a24abdc4b1.png with policy now
+2022-07-29 13:47:45,170 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,170 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_67fd8ae5ca5c500754fc.png with policy now
+2022-07-29 13:47:45,171 DEBUG   SenderThread:28584 [sender.py:send():236] send: files
+2022-07-29 13:47:45,171 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file media/images/Results_3_ab038c8e6f3efc8f748a.png with policy now
+2022-07-29 13:47:45,171 DEBUG   SenderThread:28584 [sender.py:send():236] send: history
+2022-07-29 13:47:45,171 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:47:45,172 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:47:45,178 DEBUG   SenderThread:28584 [sender.py:send():236] send: telemetry
+2022-07-29 13:47:45,178 DEBUG   SenderThread:28584 [sender.py:send():236] send: telemetry
+2022-07-29 13:47:45,178 DEBUG   SenderThread:28584 [sender.py:send():236] send: exit
+2022-07-29 13:47:45,179 INFO    SenderThread:28584 [sender.py:send_exit():372] handling exit code: 0
+2022-07-29 13:47:45,179 INFO    SenderThread:28584 [sender.py:send_exit():374] handling runtime: 115
+2022-07-29 13:47:45,180 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:47:45,180 INFO    SenderThread:28584 [sender.py:send_exit():380] send defer
+2022-07-29 13:47:45,180 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:45,181 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,181 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-29 13:47:45,186 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,187 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-29 13:47:45,187 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 1
+2022-07-29 13:47:45,188 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,188 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-29 13:47:45,288 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,288 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:45,289 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-29 13:47:45,289 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 2
+2022-07-29 13:47:45,290 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:45,290 DEBUG   SenderThread:28584 [sender.py:send():236] send: stats
+2022-07-29 13:47:45,291 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,292 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-29 13:47:45,292 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,292 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-29 13:47:45,292 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 3
+2022-07-29 13:47:45,292 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,293 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-29 13:47:45,293 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,293 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-29 13:47:45,293 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 4
+2022-07-29 13:47:45,293 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,293 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-29 13:47:45,294 DEBUG   SenderThread:28584 [sender.py:send():236] send: summary
+2022-07-29 13:47:45,295 INFO    SenderThread:28584 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-29 13:47:45,295 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,295 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-29 13:47:45,295 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 5
+2022-07-29 13:47:45,296 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,296 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-29 13:47:45,296 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,296 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-29 13:47:45,392 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:45,470 INFO    Thread-7  :28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:47:45,747 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 6
+2022-07-29 13:47:45,747 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:45,748 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:45,750 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-29 13:47:45,750 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:45,751 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-29 13:47:45,751 INFO    SenderThread:28584 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-29 13:47:45,851 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:46,441 INFO    Thread-120:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/11pmrg3e-media/images/Validation_3_c27fe4a7b7b1eaa3f363.jpg
+2022-07-29 13:47:46,473 INFO    SenderThread:28584 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml
+2022-07-29 13:47:46,473 INFO    SenderThread:28584 [dir_watcher.py:finish():383] scan: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files
+2022-07-29 13:47:46,473 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/conda-environment.yaml conda-environment.yaml
+2022-07-29 13:47:46,474 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-metadata.json wandb-metadata.json
+2022-07-29 13:47:46,474 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml config.yaml
+2022-07-29 13:47:46,479 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log output.log
+2022-07-29 13:47:46,480 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/requirements.txt requirements.txt
+2022-07-29 13:47:46,486 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json wandb-summary.json
+2022-07-29 13:47:46,488 INFO    Thread-122:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3pcfz7ux-media/images/Validation_3_4510b8757febefa5b536.jpg
+2022-07-29 13:47:46,496 INFO    Thread-121:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1wa8g6b5-media/images/Validation_3_39e8acf9c6ada56d1c9d.jpg
+2022-07-29 13:47:46,508 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_02bbb99c1d4366f0aa6e.png media/images/BoundingBoxDebugger_0_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:46,508 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_02bbb99c1d4366f0aa6e.png media/images/BoundingBoxDebugger_2_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_59692549afa51f284ffb.png media/images/BoundingBoxDebugger_2_59692549afa51f284ffb.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_2bf252e57d9d4c690d1e.jpg media/images/Validation_3_2bf252e57d9d4c690d1e.jpg
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_0df21a7a62019313e236.png media/images/BoundingBoxDebugger_2_0df21a7a62019313e236.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_f4dfcff2e8b7d7c2343f.png media/images/BoundingBoxDebugger_1_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Labels_0_17d3e9cbf6f760f5fb9b.jpg media/images/Labels_0_17d3e9cbf6f760f5fb9b.jpg
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_c97a726362c303695378.jpg media/images/Mosaics_0_c97a726362c303695378.jpg
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_02bbb99c1d4366f0aa6e.png media/images/BoundingBoxDebugger_1_02bbb99c1d4366f0aa6e.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_aa871162601d20fe4a87.png media/images/BoundingBoxDebugger_0_aa871162601d20fe4a87.png
+2022-07-29 13:47:46,509 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_2351eefc9853b401019e.png media/images/BoundingBoxDebugger_1_2351eefc9853b401019e.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_313f268baf5ca5469e01.png media/images/BoundingBoxDebugger_2_313f268baf5ca5469e01.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_313f268baf5ca5469e01.png media/images/BoundingBoxDebugger_1_313f268baf5ca5469e01.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_5f410794f2cac5f1c95c.jpg media/images/Mosaics_0_5f410794f2cac5f1c95c.jpg
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_313f268baf5ca5469e01.png media/images/BoundingBoxDebugger_0_313f268baf5ca5469e01.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_f4dfcff2e8b7d7c2343f.png media/images/BoundingBoxDebugger_2_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_b8b50119e04448c42f7d.jpg media/images/Mosaics_0_b8b50119e04448c42f7d.jpg
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_52bc76418c9a3a5c51e7.png media/images/BoundingBoxDebugger_1_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:46,510 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_d431b20f59e875506ee3.jpg media/images/Mosaics_0_d431b20f59e875506ee3.jpg
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_fad4eda58a31c76d6036.png media/images/BoundingBoxDebugger_0_fad4eda58a31c76d6036.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_f4dfcff2e8b7d7c2343f.png media/images/BoundingBoxDebugger_0_f4dfcff2e8b7d7c2343f.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_c27fe4a7b7b1eaa3f363.jpg media/images/Validation_3_c27fe4a7b7b1eaa3f363.jpg
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_082b92ecd8260351c6a1.png media/images/BoundingBoxDebugger_1_082b92ecd8260351c6a1.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_ff965e47197297828c5b.jpg media/images/Mosaics_0_ff965e47197297828c5b.jpg
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_2578e4e2c540797ee2eb.png media/images/BoundingBoxDebugger_1_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_8a8fedf29068da2a296b.png media/images/Results_3_8a8fedf29068da2a296b.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_6768a68e8c2d6b2a104a.png media/images/BoundingBoxDebugger_0_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_3442df1e7828c2d76540.png media/images/BoundingBoxDebugger_1_3442df1e7828c2d76540.png
+2022-07-29 13:47:46,511 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_39e8acf9c6ada56d1c9d.jpg media/images/Validation_3_39e8acf9c6ada56d1c9d.jpg
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_ab038c8e6f3efc8f748a.png media/images/Results_3_ab038c8e6f3efc8f748a.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_49675bde9ae5d3673e4e.png media/images/BoundingBoxDebugger_1_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_ef4757b7a15964b23f8b.png media/images/Results_3_ef4757b7a15964b23f8b.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_2351eefc9853b401019e.png media/images/BoundingBoxDebugger_2_2351eefc9853b401019e.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_0dc28627d4e1643c2060.png media/images/BoundingBoxDebugger_2_0dc28627d4e1643c2060.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_67fd8ae5ca5c500754fc.png media/images/Results_3_67fd8ae5ca5c500754fc.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_49675bde9ae5d3673e4e.png media/images/BoundingBoxDebugger_2_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_441fe7ac31c5815b7125.jpg media/images/Mosaics_0_441fe7ac31c5815b7125.jpg
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_6768a68e8c2d6b2a104a.png media/images/BoundingBoxDebugger_2_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Labels_0_e6d16917fd4b02fd29f2.jpg media/images/Labels_0_e6d16917fd4b02fd29f2.jpg
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2578e4e2c540797ee2eb.png media/images/BoundingBoxDebugger_0_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_082b92ecd8260351c6a1.png media/images/BoundingBoxDebugger_2_082b92ecd8260351c6a1.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2351eefc9853b401019e.png media/images/BoundingBoxDebugger_0_2351eefc9853b401019e.png
+2022-07-29 13:47:46,512 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_49675bde9ae5d3673e4e.png media/images/BoundingBoxDebugger_0_49675bde9ae5d3673e4e.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_2578e4e2c540797ee2eb.png media/images/BoundingBoxDebugger_2_2578e4e2c540797ee2eb.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_fad4eda58a31c76d6036.png media/images/BoundingBoxDebugger_2_fad4eda58a31c76d6036.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_0df21a7a62019313e236.png media/images/BoundingBoxDebugger_1_0df21a7a62019313e236.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_52bc76418c9a3a5c51e7.png media/images/BoundingBoxDebugger_2_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_3442df1e7828c2d76540.png media/images/BoundingBoxDebugger_0_3442df1e7828c2d76540.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_4787a72e59db366d8ef1.png media/images/BoundingBoxDebugger_2_4787a72e59db366d8ef1.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_fad4eda58a31c76d6036.png media/images/BoundingBoxDebugger_1_fad4eda58a31c76d6036.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_2260da30395a502ca073.png media/images/BoundingBoxDebugger_0_2260da30395a502ca073.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_aa871162601d20fe4a87.png media/images/BoundingBoxDebugger_2_aa871162601d20fe4a87.png
+2022-07-29 13:47:46,513 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_0df21a7a62019313e236.png media/images/BoundingBoxDebugger_0_0df21a7a62019313e236.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_919d186dad548cc0a699.jpg media/images/Mosaics_0_919d186dad548cc0a699.jpg
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_5f06e54cd0a24abdc4b1.png media/images/Results_3_5f06e54cd0a24abdc4b1.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Results_3_1b8108353a3cc40d46b5.png media/images/Results_3_1b8108353a3cc40d46b5.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Mosaics_0_cb9f2f24de1b5c195157.jpg media/images/Mosaics_0_cb9f2f24de1b5c195157.jpg
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_0dc28627d4e1643c2060.png media/images/BoundingBoxDebugger_1_0dc28627d4e1643c2060.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_f01d91decb78b946af60.png media/images/BoundingBoxDebugger_0_f01d91decb78b946af60.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_2_3442df1e7828c2d76540.png media/images/BoundingBoxDebugger_2_3442df1e7828c2d76540.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_59692549afa51f284ffb.png media/images/BoundingBoxDebugger_1_59692549afa51f284ffb.png
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/Validation_3_4510b8757febefa5b536.jpg media/images/Validation_3_4510b8757febefa5b536.jpg
+2022-07-29 13:47:46,514 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_0dc28627d4e1643c2060.png media/images/BoundingBoxDebugger_0_0dc28627d4e1643c2060.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_aa871162601d20fe4a87.png media/images/BoundingBoxDebugger_1_aa871162601d20fe4a87.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_082b92ecd8260351c6a1.png media/images/BoundingBoxDebugger_0_082b92ecd8260351c6a1.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_0_52bc76418c9a3a5c51e7.png media/images/BoundingBoxDebugger_0_52bc76418c9a3a5c51e7.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_6768a68e8c2d6b2a104a.png media/images/BoundingBoxDebugger_1_6768a68e8c2d6b2a104a.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/images/BoundingBoxDebugger_1_4787a72e59db366d8ef1.png media/images/BoundingBoxDebugger_1_4787a72e59db366d8ef1.png
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_7be3e1ad02f4019a300b.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_7be3e1ad02f4019a300b.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_22620ca79cc7d9739bfd.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_22620ca79cc7d9739bfd.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_4078509c4dc92e446998.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_4078509c4dc92e446998.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_13acecdbbb2752f8bdf7.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_13acecdbbb2752f8bdf7.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_734d875dd17bbeba34ad.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_734d875dd17bbeba34ad.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_73ca253e704b8077d05d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_73ca253e704b8077d05d.boxes2D.json
+2022-07-29 13:47:46,515 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_92b193b11a15e61018c3.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_92b193b11a15e61018c3.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_8eaab99bc5816bfc7e66.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_8eaab99bc5816bfc7e66.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_02c7ae43a007702f722f.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_02c7ae43a007702f722f.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_545bb25700cab529e856.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_545bb25700cab529e856.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_80ddca896534b2f8f34e.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_80ddca896534b2f8f34e.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_f7a4bba71f21c7f0f227.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_f7a4bba71f21c7f0f227.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_85c44aede0cf9f239fb3.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_85c44aede0cf9f239fb3.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_4cce181a0e1fddb69446.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_4cce181a0e1fddb69446.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_04f3138b7ba2e243e58c.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_04f3138b7ba2e243e58c.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_8ff2c9b48f4f88184c63.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_8ff2c9b48f4f88184c63.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_da687103b1cada3d0d75.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_da687103b1cada3d0d75.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_53ccca94cddd0487d997.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_53ccca94cddd0487d997.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_80863a8e4be868b12d8a.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_80863a8e4be868b12d8a.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_d44e20ac011e09aa9f34.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_d44e20ac011e09aa9f34.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_9423280b2c929ecda562.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_9423280b2c929ecda562.boxes2D.json
+2022-07-29 13:47:46,516 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_63687807c4de6ee5c074.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_63687807c4de6ee5c074.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_6e2ccddd39df211e8396.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_6e2ccddd39df211e8396.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_ab967a2d91e9447669b1.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_ab967a2d91e9447669b1.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_e96373b240d221edf57e.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_e96373b240d221edf57e.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_4b5a9df32386578f72ac.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_4b5a9df32386578f72ac.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_5289fddbc3e9022fdcd8.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_5289fddbc3e9022fdcd8.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_8c18d793b1a3af049df5.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_8c18d793b1a3af049df5.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_b47fb4425752d433c0a0.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_b47fb4425752d433c0a0.boxes2D.json
+2022-07-29 13:47:46,517 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_ec174c04951fb14b58da.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_ec174c04951fb14b58da.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_55e59f2a1f5dfd0aca2d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_55e59f2a1f5dfd0aca2d.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_0ed6f2d8feda304ce180.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_0ed6f2d8feda304ce180.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_1ee9c31096fe815665a9.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_1ee9c31096fe815665a9.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_28bd847bcffd94707bf0.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_28bd847bcffd94707bf0.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_c4561abad09a11d5c45e.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_c4561abad09a11d5c45e.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_8c172085eeae943d5554.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_8c172085eeae943d5554.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_ef8c4ab03ddd8ac5cb27.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_ef8c4ab03ddd8ac5cb27.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_1e704e278f26ce835d2e.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_1e704e278f26ce835d2e.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_9fb29fd065f50ba80d1c.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_9fb29fd065f50ba80d1c.boxes2D.json
+2022-07-29 13:47:46,518 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_8e2ce17fbf4e16fbbf65.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_8e2ce17fbf4e16fbbf65.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_2_344090d8173558bb0a52.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_2_344090d8173558bb0a52.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_2172af0d2241490e8e5d.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_2172af0d2241490e8e5d.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_85e8eee4ab81e22c0d47.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_85e8eee4ab81e22c0d47.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_4faf76736339d82bd63b.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_4faf76736339d82bd63b.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_9a20f6c2edc2ba8e91ea.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_9a20f6c2edc2ba8e91ea.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_02df2e2013183232f8d2.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_02df2e2013183232f8d2.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_0_197d9e469abc45785735.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_0_197d9e469abc45785735.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [dir_watcher.py:finish():397] scan save: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/media/metadata/boxes2D/BoundingBoxDebugger_1_2426fa413603adc422df.boxes2D.json media/metadata/boxes2D/BoundingBoxDebugger_1_2426fa413603adc422df.boxes2D.json
+2022-07-29 13:47:46,519 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 7
+2022-07-29 13:47:46,519 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:46,520 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:46,520 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-29 13:47:46,520 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:46,520 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-29 13:47:46,520 INFO    SenderThread:28584 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-29 13:47:46,535 INFO    Thread-128:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3ab3qczu-media/images/Results_3_67fd8ae5ca5c500754fc.png
+2022-07-29 13:47:46,610 INFO    Thread-129:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/169x2vo3-media/images/Results_3_ab038c8e6f3efc8f748a.png
+2022-07-29 13:47:46,615 INFO    Thread-127:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/1azzdqau-media/images/Results_3_5f06e54cd0a24abdc4b1.png
+2022-07-29 13:47:46,618 INFO    Thread-123:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/3dkg7jjk-media/images/Validation_3_2bf252e57d9d4c690d1e.jpg
+2022-07-29 13:47:46,623 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:46,623 INFO    Thread-124:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/13zwht8a-media/images/Results_3_1b8108353a3cc40d46b5.png
+2022-07-29 13:47:46,623 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:46,680 INFO    Thread-126:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/31s937uh-media/images/Results_3_ef4757b7a15964b23f8b.png
+2022-07-29 13:47:46,726 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:46,726 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:46,779 INFO    Thread-125:28584 [upload_job.py:push():138] Uploaded file /tmp/tmp4mhv0bhawandb/2kp1gmw1-media/images/Results_3_8a8fedf29068da2a296b.png
+2022-07-29 13:47:46,828 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:46,828 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:46,930 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:46,931 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,033 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,033 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,135 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,135 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,237 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,237 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,331 INFO    Thread-131:28584 [upload_job.py:push():138] Uploaded file /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/config.yaml
+2022-07-29 13:47:47,339 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,340 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,358 INFO    Thread-130:28584 [upload_job.py:push():138] Uploaded file /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/conda-environment.yaml
+2022-07-29 13:47:47,437 INFO    Thread-132:28584 [upload_job.py:push():138] Uploaded file /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/output.log
+2022-07-29 13:47:47,441 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,442 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,449 INFO    Thread-133:28584 [upload_job.py:push():138] Uploaded file /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/requirements.txt
+2022-07-29 13:47:47,473 INFO    Thread-134:28584 [upload_job.py:push():138] Uploaded file /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/files/wandb-summary.json
+2022-07-29 13:47:47,544 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,544 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,646 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,646 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,674 INFO    Thread-6  :28584 [sender.py:transition_state():393] send defer: 8
+2022-07-29 13:47:47,674 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:47,674 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-29 13:47:47,675 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:47,675 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-29 13:47:47,748 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:47,944 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 9
+2022-07-29 13:47:47,944 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:47,945 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:47,946 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-29 13:47:47,946 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:47,946 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-29 13:47:47,946 INFO    SenderThread:28584 [sender.py:transition_state():393] send defer: 10
+2022-07-29 13:47:47,947 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: defer
+2022-07-29 13:47:47,947 DEBUG   SenderThread:28584 [sender.py:send():236] send: final
+2022-07-29 13:47:47,948 INFO    HandlerThread:28584 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-29 13:47:47,948 DEBUG   SenderThread:28584 [sender.py:send():236] send: footer
+2022-07-29 13:47:47,948 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: defer
+2022-07-29 13:47:47,948 INFO    SenderThread:28584 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-29 13:47:48,047 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-29 13:47:48,047 DEBUG   SenderThread:28584 [sender.py:send_request():250] send_request: poll_exit
+2022-07-29 13:47:48,047 INFO    SenderThread:28584 [file_pusher.py:join():176] waiting for file pusher
+2022-07-29 13:47:48,452 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-29 13:47:48,454 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-29 13:47:48,456 DEBUG   HandlerThread:28584 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-29 13:47:48,456 INFO    HandlerThread:28584 [handler.py:finish():806] shutting down handler
+2022-07-29 13:47:48,948 INFO    WriterThread:28584 [datastore.py:close():279] close: /home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/wandb/run-20220729_134547-z95wwibn/run-z95wwibn.wandb
+2022-07-29 13:47:49,350 INFO    SenderThread:28584 [sender.py:finish():1114] shutting down sender
+2022-07-29 13:47:49,351 INFO    SenderThread:28584 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-29 13:47:49,351 INFO    SenderThread:28584 [file_pusher.py:join():176] waiting for file pusher
+2022-07-29 13:47:49,352 INFO    MainThread:28584 [internal.py:handle_exit():80] Internal process exited

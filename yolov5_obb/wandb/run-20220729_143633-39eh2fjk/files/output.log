@@ -1,0 +1,203 @@
+
+WARNING: --img-size 840 must be multiple of max stride 32, updating to 864
+Overriding model.yaml nc=80 with nc=6
+                 from  n    params  module                                  arguments
+  0                -1  1      3520  models.common.Conv                      [3, 32, 6, 2, 2]
+  1                -1  1     18560  models.common.Conv                      [32, 64, 3, 2]
+  2                -1  1     18816  models.common.C3                        [64, 64, 1]
+  3                -1  1     73984  models.common.Conv                      [64, 128, 3, 2]
+  4                -1  2    115712  models.common.C3                        [128, 128, 2]
+  5                -1  1    295424  models.common.Conv                      [128, 256, 3, 2]
+  6                -1  3    625152  models.common.C3                        [256, 256, 3]
+  7                -1  1   1180672  models.common.Conv                      [256, 512, 3, 2]
+  8                -1  1   1182720  models.common.C3                        [512, 512, 1]
+  9                -1  1    656896  models.common.SPPF                      [512, 512, 5]
+ 10                -1  1    131584  models.common.Conv                      [512, 256, 1, 1]
+ 11                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 12           [-1, 6]  1         0  models.common.Concat                    [1]
+ 13                -1  1    361984  models.common.C3                        [512, 256, 1, False]
+ 14                -1  1     33024  models.common.Conv                      [256, 128, 1, 1]
+ 15                -1  1         0  torch.nn.modules.upsampling.Upsample    [None, 2, 'nearest']
+ 16           [-1, 4]  1         0  models.common.Concat                    [1]
+ 17                -1  1     90880  models.common.C3                        [256, 128, 1, False]
+ 18                -1  1    147712  models.common.Conv                      [128, 128, 3, 2]
+ 19          [-1, 14]  1         0  models.common.Concat                    [1]
+ 20                -1  1    296448  models.common.C3                        [256, 256, 1, False]
+ 21                -1  1    590336  models.common.Conv                      [256, 256, 3, 2]
+ 22          [-1, 10]  1         0  models.common.Concat                    [1]
+ 23                -1  1   1182720  models.common.C3                        [512, 512, 1, False]
+ 24      [17, 20, 23]  1    515127  models.yolo.Detect                      [6, [[10, 13, 16, 30, 33, 23], [30, 61, 62, 45, 59, 119], [116, 90, 156, 198, 373, 326]], [128, 256, 512]]
+Model Summary: 270 layers, 7521271 parameters, 7521271 gradients, 17.5 GFLOPs
+Transferred 343/349 items from yolov5s.pt
+Scaled weight_decay = 0.0005
+[34m[1moptimizer:[39m[22m SGD with parameter groups 57 weight, 60 weight (no decay), 60 bias
+[34m[1mtrain: [39m[22mScanning 'oriented_object/train/labelTxt.cache' images and labels... 1305 found, 0 missing, 2 empty, 143 corrupted: 100%|█| 1305/1305
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093855_jpg.rf.c4fd2d9cef9cdebbbbd302abf2fd1402.jpg: ignoring corrupt image/label: negative label values [    -15.568], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093911_jpg.rf.245b9be184098a1f9e9dd3c0ea75d122.jpg: ignoring corrupt image/label: negative label values [    -7.5617], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093911_jpg.rf.7507e04a0d7df78f6ac6320f1f5b7480.jpg: ignoring corrupt image/label: negative label values [    -12.801], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093923_jpg.rf.743d25a6e50ac358b267978237ef9810.jpg: ignoring corrupt image/label: negative label values [    -13.253], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093923_jpg.rf.e9d502e6b4434533b229c6f7a90b0076.jpg: ignoring corrupt image/label: negative label values [    -12.446], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_093943_jpg.rf.79d9bcf380d27aab69d3704aa4eaa573.jpg: ignoring corrupt image/label: negative label values [    -10.666], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094612_jpg.rf.6a643eb13a796a9068110f1b1830ee09.jpg: ignoring corrupt image/label: negative label values [    -10.222], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094728_jpg.rf.ef40433ab35204522a5f9903a845500c.jpg: ignoring corrupt image/label: negative label values [    -19.444], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094752_jpg.rf.5be50cdae23367b2a91bd359547a4cde.jpg: ignoring corrupt image/label: negative label values [    -1.0861], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094752_jpg.rf.7d2838205ffbfed8d2c94794a49c46cf.jpg: ignoring corrupt image/label: negative label values [    -46.738], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094752_jpg.rf.a4d7eb8d61251888b746fc03cb2fc4b1.jpg: ignoring corrupt image/label: negative label values [    -5.5427     -4.5465], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_094929_jpg.rf.db6d8b54c8ef342ee1826a64fcb833ec.jpg: ignoring corrupt image/label: negative label values [     -18.45], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095023_jpg.rf.aede1eb476f183d931c09b1d50feb2d0.jpg: ignoring corrupt image/label: negative label values [     -44.97], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095023_jpg.rf.f312980fa443dbe29da992b4389fab7a.jpg: ignoring corrupt image/label: negative label values [    -26.433], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095248_jpg.rf.53150c5dc3e10532393c57284f192443.jpg: ignoring corrupt image/label: negative label values [    -21.925], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095248_jpg.rf.e63d6db05dabb02a871cc1488a4a52cf.jpg: ignoring corrupt image/label: negative label values [    -45.656], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095254_jpg.rf.08bc59093aaf5a3050ee6e6248d61a61.jpg: ignoring corrupt image/label: negative label values [    -2.0989], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095412_jpg.rf.cce7882f8cc8f5c5baf9780d22ff82f5.jpg: ignoring corrupt image/label: negative label values [    -2.0391], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095457_jpg.rf.139481b57dc2f09e8b9eebf262e62715.jpg: ignoring corrupt image/label: negative label values [    -13.342], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095457_jpg.rf.a671ad5cd59021276f303cffc42645d3.jpg: ignoring corrupt image/label: negative label values [    -1.6606], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095646_jpg.rf.cd1d2e2a75df211e2b7315ff3c552b12.jpg: ignoring corrupt image/label: negative label values [    -3.0347], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095646_jpg.rf.dc56bf47941de96f704ae1440cfc9e43.jpg: ignoring corrupt image/label: negative label values [    -17.726], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095802_jpg.rf.5922c69ec58d3e4dc510bd2a1f7cf34a.jpg: ignoring corrupt image/label: negative label values [    -17.676], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_095802_jpg.rf.b3061548403a7ed7ff12d37383230e07.jpg: ignoring corrupt image/label: negative label values [    -19.865], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_141947_jpg.rf.71a6a3fb7b3d17717de5374691505ab3.jpg: ignoring corrupt image/label: negative label values [    -15.855], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_141952_jpg.rf.259f1045aab8a172c4be9beb53e01dad.jpg: ignoring corrupt image/label: negative label values [    -16.322], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_141958_jpg.rf.794f8ea2cb267698fda30b6e0e2dc8ba.jpg: ignoring corrupt image/label: negative label values [    -32.337], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_141958_jpg.rf.ad06390e3526ce7335f44628e2d3dadb.jpg: ignoring corrupt image/label: negative label values [    -9.8951], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142017_jpg.rf.251157caea26770be4567d83a7ed2483.jpg: ignoring corrupt image/label: negative label values [    -29.354], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142017_jpg.rf.6fdb535c72b4c400579d48b74943a5ba.jpg: ignoring corrupt image/label: negative label values [    -25.423], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142031_jpg.rf.93b5e2ea7bc8fd8d9ac47f9d16f1b78f.jpg: ignoring corrupt image/label: negative label values [    -17.058], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142031_jpg.rf.d26ec3518d203f1ef9757748f95a8eee.jpg: ignoring corrupt image/label: negative label values [    -37.915], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142324_jpg.rf.5c22214967606a0f64be3a1f6ff5b1e8.jpg: ignoring corrupt image/label: negative label values [    -5.9356], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142324_jpg.rf.b457b84a4361bbe18546a9ac85caecfb.jpg: ignoring corrupt image/label: negative label values [    -14.848     -9.2263], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142324_jpg.rf.f6b734e39967810839693e3fb3a45b71.jpg: ignoring corrupt image/label: negative label values [    -4.3494], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142336_jpg.rf.9fa0737fe38de7aee857e68ebb99f26f.jpg: ignoring corrupt image/label: negative label values [    -4.2375     -6.7225], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142336_jpg.rf.e81e690cffcba7f09cb942a38f77683e.jpg: ignoring corrupt image/label: negative label values [    -1.5779], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142531_jpg.rf.c37cdb5d9ebb24920909047ef94b1093.jpg: ignoring corrupt image/label: negative label values [    -49.755], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142609_jpg.rf.78a7a4b6c742be296b816fdb4e685b7c.jpg: ignoring corrupt image/label: negative label values [    -35.354], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142609_jpg.rf.8a9841a9ef0071198e361ad8f271179a.jpg: ignoring corrupt image/label: negative label values [    -37.038], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142740_jpg.rf.0c0a611c4d3c30027a7db1d56aefa70f.jpg: ignoring corrupt image/label: negative label values [    -4.7917], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142809_jpg.rf.27bfb6761aaa3b3f0fbaa9bc92c0a9b3.jpg: ignoring corrupt image/label: negative label values [   -0.74684], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_142929_jpg.rf.a0ee4660864c15bfa083b0c496549aa4.jpg: ignoring corrupt image/label: negative label values [    -24.012], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143021_jpg.rf.ca381005b5482faaa3d732bc75d4f8ce.jpg: ignoring corrupt image/label: negative label values [    -1.0797], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143301_jpg.rf.d042af8e261db1346ef827b26b04e93d.jpg: ignoring corrupt image/label: negative label values [    -8.4584], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143641_jpg.rf.bcc282686036bdfebdd21bf595921717.jpg: ignoring corrupt image/label: negative label values [    -9.1887], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143758_jpg.rf.97349b0c503c45d1565651b32a27cff8.jpg: ignoring corrupt image/label: negative label values [    -10.683], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143832_jpg.rf.0566ed1e2a0b1212081500be052fc8a5.jpg: ignoring corrupt image/label: negative label values [    -8.0742], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143832_jpg.rf.4a2abfefaaf08130d7a105ac563ef56d.jpg: ignoring corrupt image/label: negative label values [    -6.7752], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143832_jpg.rf.c97a895678f81bf103059b58e9e6e920.jpg: ignoring corrupt image/label: negative label values [    -11.226], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_143846_jpg.rf.35e5fe153b77fed7cce207978490c358.jpg: ignoring corrupt image/label: negative label values [    -22.477], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_144105_jpg.rf.62d476d25449f59fe671f211f4725c9b.jpg: ignoring corrupt image/label: negative label values [    -13.238], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_144113_jpg.rf.f435fa5e5fef80534e00a73da935e6f7.jpg: ignoring corrupt image/label: negative label values [    -19.827], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_144133_jpg.rf.9a30ff63e5ac8e81dadf1cdb45f22aa9.jpg: ignoring corrupt image/label: negative label values [    -4.3982], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_144133_jpg.rf.ab88b38faee90608b126bd356f6752b9.jpg: ignoring corrupt image/label: negative label values [     -6.433], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_144754_jpg.rf.e8748a6009d247787fb21c7476910793.jpg: ignoring corrupt image/label: negative label values [    -10.582], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_145923_jpg.rf.084bb20e4d0a7b480d51d96099b75c5c.jpg: ignoring corrupt image/label: negative label values [   -0.59209], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_150032_jpg.rf.c3796847cf6fd8ba54db0ab96da5edb4.jpg: ignoring corrupt image/label: negative label values [   -0.52837], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_150542_jpg.rf.9142d0d7e15d2e31c96bd0c4bc39bb09.jpg: ignoring corrupt image/label: negative label values [    -4.4185], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_151104_jpg.rf.39344e5a7d5a70c95bc787a31928cb84.jpg: ignoring corrupt image/label: negative label values [    -45.259], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_151209_jpg.rf.2ca12140f4623477d8a6e32efef86661.jpg: ignoring corrupt image/label: negative label values [    -14.852], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_151251_jpg.rf.1039c899ebb541bbd2106e1e261f569f.jpg: ignoring corrupt image/label: negative label values [    -11.825], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/20220615_151251_jpg.rf.96f3ea5c918a9f3793306277335e5d47.jpg: ignoring corrupt image/label: negative label values [    -6.8962], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/IMG20220531142220_jpg.rf.093ead2956e399110a5c1762e62e0483.jpg: ignoring corrupt image/label: negative label values [    -12.647], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/IMG20220531142220_jpg.rf.40e9178e30a97cadd022fef298fc042a.jpg: ignoring corrupt image/label: negative label values [    -5.9717], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/IMG20220531142220_jpg.rf.4732dd956a3f213c2ed11b36d504bffc.jpg: ignoring corrupt image/label: negative label values [    -4.9847], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/IMG20220531142534_jpg.rf.241d479eb03bb2bacd42288c4cead9eb.jpg: ignoring corrupt image/label: negative label values [      -10.7], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/IMG20220531144817_jpg.rf.af78fa7abc49c53f79f50f84af2080fa.jpg: ignoring corrupt image/label: negative label values [    -23.023], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame0_jpg.rf.f3815cabeeffe3bfe1ca4e33a339e724.jpg: ignoring corrupt image/label: negative label values [    -10.189], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame10_jpg.rf.ac36384529752b0ba52e8a1e847d1e80.jpg: ignoring corrupt image/label: negative label values [    -1.4149], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame12_jpg.rf.77ced39dfb6f31ff1c2018d832c6522c.jpg: ignoring corrupt image/label: negative label values [     -26.37], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame13_jpg.rf.ed710d7c003e11e47c4381681954f29f.jpg: ignoring corrupt image/label: negative label values [    -2.1496     -3.1955], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame15_jpg.rf.3349a5372845a721369e316323104c94.jpg: ignoring corrupt image/label: negative label values [    -8.9227], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame15_jpg.rf.83a2d97019bab40b0c6aba84e62766eb.jpg: ignoring corrupt image/label: negative label values [    -7.1274], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame15_jpg.rf.dbd0debc393a322244325e79e6de015c.jpg: ignoring corrupt image/label: negative label values [   -0.77411], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame17_jpg.rf.67df4c324120243c9c3b7a387891448d.jpg: ignoring corrupt image/label: negative label values [    -16.897], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame17_jpg.rf.b6fbcbcdc8325b808b0d1b77f0105b18.jpg: ignoring corrupt image/label: negative label values [    -17.562], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame20_jpg.rf.b6f0933fb121f6b4ba71f379781bb266.jpg: ignoring corrupt image/label: negative label values [    -4.4213], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame21_jpg.rf.5397279e502267899d799ebc214e1dd6.jpg: ignoring corrupt image/label: negative label values [    -7.7347], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame30_jpg.rf.75c71a03bdbf378beeba6267c38b40aa.jpg: ignoring corrupt image/label: negative label values [    -7.3058], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame33_jpg.rf.bf731c66cf83930ded222663a951b68a.jpg: ignoring corrupt image/label: negative label values [    -11.862], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame39_jpg.rf.1e23bc95d58df843579eb276349907e9.jpg: ignoring corrupt image/label: negative label values [    -7.1969], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame40_jpg.rf.b7a3bce8981c3727524b35cb87cb1bac.jpg: ignoring corrupt image/label: negative label values [   -0.99082], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame45_jpg.rf.55cc41781ad43d3f35ffda2e9366b7d2.jpg: ignoring corrupt image/label: negative label values [    -4.7604], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame45_jpg.rf.816783e9b078d0d7d20fdb29814fef2f.jpg: ignoring corrupt image/label: negative label values [    -1.6717], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame4_jpg.rf.53f6f73be577042b464c287afdc31e41.jpg: ignoring corrupt image/label: negative label values [    -7.3763], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame4_jpg.rf.909971fa3958a2a7419da9b3ecde2339.jpg: ignoring corrupt image/label: negative label values [    -3.4808], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame4_jpg.rf.e933c07d6f85a680b188683393dcf838.jpg: ignoring corrupt image/label: negative label values [    -2.9635], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame50_jpg.rf.8ccb782e6dcffd482eab4a2c4c07d0d9.jpg: ignoring corrupt image/label: negative label values [    -5.0139], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame50_jpg.rf.90dfe90d7d1936b22e5921d7120889c4.jpg: ignoring corrupt image/label: negative label values [     -13.73], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame50_jpg.rf.d8e8b956f575d32ed4b02cf283efc4d4.jpg: ignoring corrupt image/label: negative label values [    -11.597], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame52_jpg.rf.5d3dfcc27445f58e83eddaacdaa92863.jpg: ignoring corrupt image/label: negative label values [    -5.6972], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame52_jpg.rf.dba58d031851c69736d508ecbab17f3a.jpg: ignoring corrupt image/label: negative label values [    -6.6255], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame5_jpg.rf.421cbd54616ce641be0353cb34c3da57.jpg: ignoring corrupt image/label: negative label values [    -18.747], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame6_jpg.rf.4538fc3940bf11a83746d417af2fd342.jpg: ignoring corrupt image/label: negative label values [    -4.0706], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame6_jpg.rf.7d6da91ef2aa83a590f217f15ab3d474.jpg: ignoring corrupt image/label: negative label values [     -13.27], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame6_jpg.rf.91b1ec781d286de9d3b405a344a7573a.jpg: ignoring corrupt image/label: negative label values [    -11.549], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame6_jpg.rf.abe20d4bef3b2622874840de8b63a13c.jpg: ignoring corrupt image/label: negative label values [    -1.0367], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame7_jpg.rf.0f2cf3addae2eb10efda1695e876e9da.jpg: ignoring corrupt image/label: negative label values [    -2.3626], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame7_jpg.rf.1955649f0ea053eb68937e372de12e44.jpg: ignoring corrupt image/label: negative label values [    -20.744], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame7_jpg.rf.56247ff0b221d87226456d22e64deb6d.jpg: ignoring corrupt image/label: negative label values [    -15.353], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame7_jpg.rf.b58dd8727fdfbf1c15aa8e6055f54d2f.jpg: ignoring corrupt image/label: negative label values [    -27.312], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame8_jpg.rf.f4e72879aee796ec404c2f96f93ec83d.jpg: ignoring corrupt image/label: negative label values [    -14.765     -8.7964], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/frame9_jpg.rf.72f92c79c480ae18940d31680307be1c.jpg: ignoring corrupt image/label: negative label values [     -3.989], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic101_jpg.rf.67950d9bdc55275993b5319d769102bd.jpg: ignoring corrupt image/label: negative label values [    -1.7116      -118.4], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic101_jpg.rf.a9084dabe0e08ee1b5db0816fc6ef7fe.jpg: ignoring corrupt image/label: negative label values [    -55.379     -66.992], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic101_jpg.rf.d7c42c7357cbb2060228ab7f8299b758.jpg: ignoring corrupt image/label: negative label values [    -99.572], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic124_jpg.rf.2472aba3f79f7f75747ddc749a7ff51a.jpg: ignoring corrupt image/label: negative label values [    -24.438], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic124_jpg.rf.61a4a016812d28fc4e73cd2ebc4cc766.jpg: ignoring corrupt image/label: negative label values [    -49.254], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic124_jpg.rf.c5c797d62a3cff9cbc86161292210781.jpg: ignoring corrupt image/label: negative label values [    -69.056], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic208_jpg.rf.212a46b8c9b14308f991a56887ca5c11.jpg: ignoring corrupt image/label: negative label values [    -80.747     -17.632], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic208_jpg.rf.6c3d862bc0e2bbb91c08fe7f019373d0.jpg: ignoring corrupt image/label: negative label values [    -82.348], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic208_jpg.rf.7a89c709c0b95df9f724693a2b8ad305.jpg: ignoring corrupt image/label: negative label values [    -47.909], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic237_jpg.rf.39377cb2c5bc871acb717b2cca7ac44a.jpg: ignoring corrupt image/label: negative label values [    -13.629], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic269_jpg.rf.1245dd9099e04be72b2830ff90e239da.jpg: ignoring corrupt image/label: negative label values [    -40.628], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic269_jpg.rf.addefe22a6acdf00e86e829b8ae7d295.jpg: ignoring corrupt image/label: negative label values [    -37.117], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic29_jpg.rf.0308bc4a4fbdfa84193654ccb6fc4edd.jpg: ignoring corrupt image/label: negative label values [    -63.375], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic29_jpg.rf.7a15d74e6956634851b8cacfeb8eaf8d.jpg: ignoring corrupt image/label: negative label values [    -13.152], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic29_jpg.rf.a452635cea424efe98199e49571ab003.jpg: ignoring corrupt image/label: negative label values [    -41.745], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic334_jpg.rf.a3211fbdd76aadeb9e0eb3349b87be3e.jpg: ignoring corrupt image/label: negative label values [    -6.6009], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic334_jpg.rf.f711112ca07111dc91dae158b21fec6b.jpg: ignoring corrupt image/label: negative label values [    -12.976], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic375_jpg.rf.2a20ffa57b93d7df56c77ae1321bb0b7.jpg: ignoring corrupt image/label: negative label values [    -7.4212     -4.9554], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic375_jpg.rf.2dcb8622a9ffdbec8915452b83cbdc81.jpg: ignoring corrupt image/label: negative label values [    -22.754], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic428_jpg.rf.3f0ca1bb9b757b39f2960302fcd13fa4.jpg: ignoring corrupt image/label: negative label values [    -3.7173], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic444_jpg.rf.5cf815bba86c0fbd5ffcceda9461b519.jpg: ignoring corrupt image/label: negative label values [     -72.56], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic444_jpg.rf.e874b63cbb714b37660185aee6a214ae.jpg: ignoring corrupt image/label: negative label values [    -99.519     -35.562], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic448_jpg.rf.797b59ac0779ce75b2f8a5e150a1a6d0.jpg: ignoring corrupt image/label: 'plastic-trash' is not in list
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic448_jpg.rf.9404e09ecac4516db61aaa90dbff49f5.jpg: ignoring corrupt image/label: 'plastic-trash' is not in list
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic448_jpg.rf.964afb8d856c20e115dfa55ceaa8a487.jpg: ignoring corrupt image/label: 'plastic-trash' is not in list
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic463_jpg.rf.90ef84cb32735e816e25cedf9a6bc0e5.jpg: ignoring corrupt image/label: negative label values [    -44.572], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic463_jpg.rf.a0c579a163c299186b3c869a15e75cc0.jpg: ignoring corrupt image/label: negative label values [    -44.495], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic464_jpg.rf.2214fd4907442e017a684fa121f31356.jpg: ignoring corrupt image/label: negative label values [    -14.299], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic467_jpg.rf.ef2b47d93d597ce7b4f4732a6c6d1e56.jpg: ignoring corrupt image/label: negative label values [    -22.903], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic470_jpg.rf.40a40041471f20eaf818dae9c9491ab0.jpg: ignoring corrupt image/label: negative label values [    -28.938], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic470_jpg.rf.4bbff84de9914ce9dc54f100e9fa0073.jpg: ignoring corrupt image/label: negative label values [    -42.523], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic471_jpg.rf.017ec7157f65141a74a9923375fb57eb.jpg: ignoring corrupt image/label: negative label values [    -7.7604], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic471_jpg.rf.53016b60280472607ee8eefdf2f5fbd4.jpg: ignoring corrupt image/label: negative label values [    -39.704], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic471_jpg.rf.7fce9d09a64a8532dffa6a1dcf5f0f14.jpg: ignoring corrupt image/label: negative label values [      -6.05], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic69_jpg.rf.a84de555c6b6edaac71973c506802a92.jpg: ignoring corrupt image/label: negative label values [    -5.0488], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic69_jpg.rf.d7002e83a4af204acab79e3ac5ee75fa.jpg: ignoring corrupt image/label: negative label values [    -33.824], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic88_jpg.rf.17cf3145d5a0f04be0b24b08a053d795.jpg: ignoring corrupt image/label: negative label values [    -102.13], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic88_jpg.rf.86557ad1998630463ff17d4a9a1d1d75.jpg: ignoring corrupt image/label: negative label values [     -32.11     -108.62], please check your dota format labels
+[34m[1mtrain: [39m[22mWARNING: oriented_object/train/images/plastic88_jpg.rf.d2bdad4eea3b5a459df589aa37c21371.jpg: ignoring corrupt image/label: negative label values [    -15.107], please check your dota format labels
+[34m[1mval: [39m[22mScanning 'oriented_object/valid/labelTxt.cache' images and labels... 65 found, 0 missing, 1 empty, 5 corrupted: 100%|█| 65/65 [00:00<?,
+[34m[1mval: [39m[22mWARNING: oriented_object/valid/images/20220531_111341-0-_jpg.rf.2e8a8de22363dde8af1d1cdd4e194f9c.jpg: ignoring corrupt image/label: negative label values [    -9.4111], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: oriented_object/valid/images/frame11_jpg.rf.f12a2414069cc1134d2e265cc9ccfaeb.jpg: ignoring corrupt image/label: negative label values [    -30.255], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: oriented_object/valid/images/frame36_jpg.rf.81b3e0923dc32ddde569476e791c9a1e.jpg: ignoring corrupt image/label: negative label values [    -15.466], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: oriented_object/valid/images/frame3_jpg.rf.e0dbfdbc6e753a50bd5071deb3ac57a4.jpg: ignoring corrupt image/label: negative label values [    -7.8895], please check your dota format labels
+[34m[1mval: [39m[22mWARNING: oriented_object/valid/images/frame9_jpg.rf.615b5d2b80d87a1e9538d3c502052016.jpg: ignoring corrupt image/label: negative label values [    -40.398], please check your dota format labels
+Plotting labels to runs/train/exp4/labels_xyls.jpg...
+[34m[1mAutoAnchor: [39m[22m5.22 anchors/target, 0.999 Best Possible Recall (BPR). Current anchors are a good fit to dataset ✅
+Image sizes 864 train, 864 val
+Using 8 dataloader workers
+Logging results to [1mruns/train/exp4
+Starting training for 300 epochs...
+     Epoch   gpu_mem       box       obj       cls     theta    labels  img_size
+  0%|          | 0/37 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/train.py", line 633, in <module>
+    main(opt)
+  File "/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/train.py", line 530, in main
+    train(opt.hyp, opt, device, callbacks)
+  File "/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb/train.py", line 333, in train
+    scaler.scale(loss).backward()
+  File "/home/westonrobot/anaconda3/envs/Py39_Torch1.10_cu11.3/lib/python3.9/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/westonrobot/anaconda3/envs/Py39_Torch1.10_cu11.3/lib/python3.9/site-packages/torch/autograd/__init__.py", line 154, in backward
+    Variable._execution_engine.run_backward(
+RuntimeError: CUDA out of memory. Tried to allocate 408.00 MiB (GPU 0; 10.92 GiB total capacity; 9.35 GiB already allocated; 272.56 MiB free; 9.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

@@ -1,0 +1,1 @@
+{"box_data": [{"position": {"minX": 497.73358154296875, "minY": 162.3664093017578, "maxX": 617.2664184570312, "maxY": 243.6335906982422}, "class_id": 2, "box_caption": "drink-cans 0.010", "scores": {"class_score": 0.01018524169921875}, "domain": "pixel"}], "class_labels": {"0": "bottle", "1": "cups", "2": "drink-cans", "3": "drink-packets", "4": "styrofoam", "5": "wrappers"}}
