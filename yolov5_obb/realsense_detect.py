@@ -8,15 +8,15 @@ import sys
 
 
 #To add the ROS message directory to path:
-sys.path.insert(0,"/home/westonrobot/Documents/GitHub/trash_catkin_ws/src")
-from trash_collector.msg import Object_info
+# sys.path.insert(0,"/home/westonrobot/Documents/GitHub/trash_catkin_ws/src")
+# from trash_collector.msg import Object_info
 # sys.path.insert(0,"/home/westonrobot/Documents/GitHub/trash_catkin_ws/src/trash_collector/msg/Object_info.msg")
-# import Object_info.msg
+import Object_info.msg
 
 #Reference: https://chowdera.com/2022/01/202201190311218687.html 
 
 # model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
-model = torch.hub.load('/home/westonrobot/Documents/GitHub/trash_detection_finetune/yolov5_obb','custom',
+model = torch.hub.load('/trash_detection_finetune/yolov5_obb','custom',
     force_reload = True,path='runs/train/exp6/weights/best.pt',source='local')
 #Model Confidence lvl -- accuracy lvl before it shows the box
 model.conf = 0.7
